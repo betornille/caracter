@@ -1,0 +1,14 @@
+//suma
+#include<stdio.h>
+int main(){
+    int edad;
+    char nombre[20];
+    
+    printf("Ingrese su edad: ");
+    scanf("%d", &edad);
+    printf("Ingrese su nombre: ");
+    scanf("%s", nombre);
+    
+    printf("Tu edad es %d y tu nombre es %s", edad, nombre);
+    return 0;
+}
